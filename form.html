@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8">
+<title>SMTP Locaweb</title>
+<link href="bower_components/locawebstyle/dist/stylesheets/locastyle.css" rel="stylesheet" type="text/css">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/locawebstyle/dist/javascripts/locastyle.js"></script>
+    <style type="text/css">
+        html {background: url('assets/images/background.jpg');}
+        #form_container {position: relative; top: 50%; transform: translateY(-50%); max-width: 700px;}
+    </style>
+</head>
+
+<body>
+    
+    <div id="form_container" class="ls-box ls-border ls-margin-auto">
+        <div id="form_title" class="ls-box-gray">
+	        <img src="assets/images/smtp.jpg" class="ls-float-left">
+            <h2>SMTP Locaweb</h2>
+            <p>Esse é um formulário básico de exemplo da utilização do <a href="http://www.locaweb.com.br/produtos/smtp-locaweb.html">SMTP Locaweb</a> para o envio de emails transacionais.</p>
+        </div>
+        <form id="form" class="ls-form row" method="post" action="send.php">		
+            <fieldset>
+                <label class="ls-label col-md-8">
+                    <strong class="ls-label-text">Nome</strong>
+                    <input type="text" name="nome" placeholder="Nome" required>
+                </label>
+                <label class="ls-label col-md-8">
+                    <strong class="ls-label-text">Sobrenome</strong>
+                    <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+                </label>
+                <label class="ls-label col-md-8">
+                    <strong class="ls-label-text">Email</strong>
+                    <input type="email" name="destinatario" placeholder="Escreva o seu email" required>
+                </label>
+                <label class="ls-label col-md-8">
+                    <strong class="ls-label-text">Assunto</strong>
+                    <input type="text" name="assunto" placeholder="Assunto" required>
+                </label>
+                <label class="ls-label col-md-12">
+                    <strong class="ls-label-text">Mensagem</strong>
+                    <textarea name="mensagem" rows="4" class="ls-textarea-autoresize" data-ls-module="charCounter" maxlength="200" placeholder="Escreva o conteúdo da mensagem" required></textarea>
+                </label>
+                <input name="submit" id="sendForm" type="submit" class="ls-btn" value="Enviar">
+            </fieldset>	   
+        </form>
+	</div>
+</body>
+</html>
