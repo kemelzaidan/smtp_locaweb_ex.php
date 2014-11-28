@@ -23,5 +23,7 @@ php -S 0.0.0.0:8000
 
 Agora é só abrir o navegador e acessar o formulário digitando: `localhost:8000/form.html`:
 
+![Imagem da aplicação de exemplo](https://raw.githubusercontent.com/kemelzaidan/smtp_locaweb_ex.php/master/assets/images/form_smtp.jpg)
+
 VOILÁ e divirta-se! :-)
 
