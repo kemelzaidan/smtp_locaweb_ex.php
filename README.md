@@ -27,3 +27,5 @@ Agora é só abrir o navegador e acessar o formulário digitando: `localhost:800
 
 VOILÁ e divirta-se! :-)
 
+Se quiser saber mais sobre o SMTP Locaweb, veja o post no blog: http://blog.locaweb.com.br/cloud/jelastic/envio-de-email…ional-na-nuvem/
+
